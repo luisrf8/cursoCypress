@@ -1,4 +1,5 @@
-
+// import indexPage from "ruta del indexPage";
+import indexPage from '../support/pages/index'
 //  First good testing
 
 // Using "expect" to wait a response
@@ -186,4 +187,32 @@
   //abrilos la consola en la carpeta donde tenemos el proyecto en cypress y escribimos: node_modules\.bin\cypress run
   //va a empezar a ejecutar todos los casos en la consola
   
-//
+// // End Headless
+
+// //Pages Objects
+//   //vamos a la carpeta de Support y creamos una nueva carpeta de nombre "pages"
+//   //creamos un index.js
+//   class indexPage{
+//     constructor() {
+//       this.searchInput = "#id del componente a buscar en la pagina"
+//       this.searchButton = "#id del boton > .clase del boton"
+//     }
+//     search = (element) => {
+//       cy.get(this.searchInput).type(element);
+//       cy.get(this.searchButton).click();
+//     }
+//   }
+// export default new indexPage();
+// describe("uso de pages", () => {
+  // it("search", () => {
+    // indexPage.search("dress"); 
+      // //llamando asi a la funcion de index page que hace: 
+        // // cy.get('#elemento').type("escrito")
+        // // cy.get('#elemento').click();
+  // })
+// })
+// // End Pages Objects
+
+// // comandos de cypress
+  
+// // end comandos de cypress
