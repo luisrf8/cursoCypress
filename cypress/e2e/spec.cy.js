@@ -183,7 +183,7 @@
 // end asserts 
 
 // headless (no cuenta con entorno grafico)
-  //abrilos la consola en la carpeta donde tenemos el proyecto en cypress y escribimos: \node_modules\.bin\cypress run
+  //abrilos la consola en la carpeta donde tenemos el proyecto en cypress y escribimos: node_modules\.bin\cypress run
   //va a empezar a ejecutar todos los casos en la consola
   
 //
