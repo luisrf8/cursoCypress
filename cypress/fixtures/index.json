@@ -1,0 +1,4 @@
+{
+    "searchInput": "#id del componente a buscar en la pagina",
+    "searchButton": "#id del boton > .clase del boton"
+}
